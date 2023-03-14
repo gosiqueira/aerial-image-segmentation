@@ -1,0 +1,21 @@
+name: aerial_image
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - cudatoolkit=11.1
+  - cudnn=8.2.1
+  - numpy
+  - matplotlib
+  - pandas
+  - scikit-learn
+  - tqdm
+  - pip:
+    - albumentations
+    - opencv-python
+    - segmentation-models-pytorch
